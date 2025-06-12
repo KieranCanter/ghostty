@@ -75,10 +75,10 @@ keybind = ctrl+super+j=resize_split:down,50
 keybind = ctrl+super+k=resize_split:up,50
 keybind = ctrl+super+equal=equalize_splits
 
-keybind = ctrl+shift+w>n=new_tab
-keybind = ctrl+shift+w>shift+t=previous_tab
-keybind = ctrl+shift+w>t=next_tab
-keybind = ctrl+shift+w>q=close_tab
+keybind = ctrl+shift+w>tab>tab=new_tab
+keybind = ctrl+shift+w>tab>h=previous_tab
+keybind = ctrl+shift+w>tab>l=next_tab
+keybind = ctrl+shift+w>tab>c=close_tab
 
 macos-option-as-alt = true
 quit-after-last-window-closed = true
@@ -87,5 +87,8 @@ scrollback-limit = 1000000
 
 window-height = 50
 window-width = 180
+window-inherit-working-directory = true
+unfocused-split-opacity = 0.6
 font-size = 16
 font-feature = -calt, -liga, dlig
+
